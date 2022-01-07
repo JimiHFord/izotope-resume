@@ -3,6 +3,7 @@ body {
     font-family: 'Assistant';
     font-weight: 600;
     color: white;
+    height: 100vh;
 }
 
 .top-bar {
@@ -31,7 +32,8 @@ body {
 
 .headshot {
     width: 6%;
-    background-color: #10b1dd;
+    /* background-color: #10b1dd; */
+    background: linear-gradient(to top left, #1FACDB, rgba(33, 175, 220, 0), #35D1EB), linear-gradient(to top right, #22B4DB, rgba(255, 153, 150, 0), #28C5E0) rgba(37, 188, 224, 1);
     border: 1px solid #32d3ff;
     display: flex;
 }
@@ -81,9 +83,26 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.75rem;
+    padding-right: 0.75rem;
     /* padding: 0.5rem; */
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
+    /* border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem; */
+    border-radius: 1.5rem;
+}
+
+.izotope-logo {
+    filter: brightness(50%);
+}
+
+.resume-body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.college-skills {
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-row {
@@ -97,4 +116,8 @@ body {
 
 .ml-2 {
     margin-left: 2rem;
+}
+
+.dark-bg {
+    background-color: #14161C;
 }
