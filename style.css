@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Assistant';
+    font-weight: 600;
+    color: white;
+}
+
+.top-bar {
+    background-color: #313A43;
+}
+
+.my-name {
+    font-size: 50px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    color: #AEB6BC;
+}
+
+.career-title {
+    font-family: 'Catamaran';
+    font-weight: 400;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: -.6rem;
+    color: #AEB6BC;
+}
+
+.headshot {
+    width: 6%;
+    background-color: #10b1dd;
+    border: 1px solid #32d3ff;
+    display: flex;
+}
+
+.headshot img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dark-input-box {
+    background-color: #14161c;
+    border-radius: 4px;
+    padding: .5rem;
+}
+
+.top-bar-right-section {
+    font-size: 17px;
+}
+
+.top-bar-right-section div {
+    background-color: #566069;
+}
+
+.space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.master-assistant-button {
+    padding-left: .7rem;
+    padding-top: calc(0.5rem - 2px);
+    padding-bottom: calc(0.5rem - 2px);
+    padding-right: 0.5rem;
+    border: 2px solid white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.presets-button {
+    padding: 0.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.clock-n-gear {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    /* padding: 0.5rem; */
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
