@@ -124,14 +124,24 @@ body, html {
 .sidebar-heading {
     font-family: 'Catamaran';
     font-weight: 400;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    /* text-decoration: underline;
+    text-underline-offset: 3px; */
     text-transform: uppercase;
-    margin-bottom: 1em;
+    /* margin-bottom: .75em; */
+}
+
+.sidebar-heading > img {
+    width: 3rem;
 }
 
 .full-width {
     width: 100%;
+}
+
+.sb-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sb-entry {
@@ -143,6 +153,13 @@ body, html {
 .sb-entry > img {
     width: 1.5rem;
     margin-right: .5rem;
+}
+
+.sb-entries {
+    display: inline-block;
+    /* flex-direction: column; */
+    border-top: 1px solid #80888F;
+    padding-top: .5rem;
 }
 
 .volume-container {
@@ -243,6 +260,10 @@ body, html {
 
 .mb-p5 {
     margin-bottom: .5rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
 }
 
 .mt-p25 {
