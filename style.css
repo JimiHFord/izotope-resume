@@ -1,13 +1,17 @@
-body {
+body, html {
     margin: 0;
+    padding: 0;
     font-family: 'Assistant';
     font-weight: 600;
-    color: white;
-    height: 100vh;
+    color: #DEDFE0;
+    height: 100%;
+    background-color: #14161C;
+    /* overflow-y: hidden; */
 }
 
 .top-bar {
     background-color: #313A43;
+    height: 6rem;
 }
 
 .my-name {
@@ -31,9 +35,9 @@ body {
 }
 
 .headshot {
-    width: 6%;
+    width: 102px;
     /* background-color: #10b1dd; */
-    background: linear-gradient(to top left, #1FACDB, rgba(33, 175, 220, 0), #35D1EB), linear-gradient(to top right, #21B5DD, rgba(255, 153, 150, 0), #28C5E0) rgba(37, 188, 224, 1);
+    background: linear-gradient(to top left, #1FACDB, rgba(33, 175, 220, 0), #35D1EB), linear-gradient(to top right, #21B5DD, #28C5E0) rgba(37, 188, 224, 1);
     border: 1px solid #32d3ff;
     display: flex;
 }
@@ -68,7 +72,7 @@ body {
     padding-top: calc(0.5rem - 2px);
     padding-bottom: calc(0.5rem - 2px);
     padding-right: 0.5rem;
-    border: 2px solid white;
+    border: 2px solid #DEDFE0;
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
@@ -94,10 +98,46 @@ body {
     filter: brightness(50%);
 }
 
+.everything-else {
+    height: calc(100vh - 6rem);
+}
+
 .resume-body {
     display: flex;
     flex-flow: column;
     height: 100%;
+    width: 94rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 2px;
+    color: #80888F;
+    /* height: 100%; */
+    background-color: #313A43;
+}
+
+.sidebar-heading {
+    font-family: 'Catamaran';
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.sb-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.sb-entry > img {
+    width: 1.5rem;
+    margin-right: .5rem;
 }
 
 .college-skills {
@@ -113,7 +153,7 @@ body {
     /* color: #AEB6BC; */
     color: #80888F;
     width: 20rem;
-    background: linear-gradient(to top left, #272D36, rgba(33, 175, 220, 0), #313A43), linear-gradient(to top right, #2F363F, rgba(255, 153, 150, 0), #293038) rgba(44, 51, 59, 1);
+    background: linear-gradient(to top left, #272D36, #313A43), linear-gradient(to top right, #2F363F, #293038) rgba(44, 51, 59, 1);
     padding: .5em .75em;
     border-radius: 2px;
     display: flex;
@@ -223,3 +263,26 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
+
+.work-experience-divider {
+    margin-top: .75rem;
+    border-top: 2px solid #2E373D;
+    border-bottom: 2px solid #2E373D;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.refresh-button-container {
+    border-left: 2px solid #2E373D;
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+    padding-right: .25rem;
+}
+
+.refresh-button-container > img {
+    transform: scaleX(-1) rotate(120deg);
+}
+
+/* #F8F9F9 */
