@@ -190,17 +190,6 @@ body, html {
     justify-content: center;
 }
 
-/* Anti-Piracy appears above header */
-/* .no-piracy-container > .skull {
-    width: 1em;
-    margin-right: -1.75em;
-}
-
-.no-piracy-container > .ban {
-    width: 2em;
-    margin-bottom: -.4em;
-} */
-
 .no-piracy-container > .skull {
     width: 1em;
     margin-right: -1.75em;
@@ -410,6 +399,7 @@ body, html {
 
 .work-experience {
     display: flex;
+    flex-direction: column;
     color: #80888F;
     font-weight: 400;
     height: 100%;
@@ -423,6 +413,21 @@ body, html {
 .job-col {
     padding: .5rem;
     flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job .company {
+    font-size: 25px;
+    font-family: 'Catamaran';
+    text-decoration: underline 1px;
+    text-underline-offset: 2px;
+}
+
+.job-row {
+    display: flex;
+    justify-content: space-between;
 }
 
 .refresh-button-container {
