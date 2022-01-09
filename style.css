@@ -421,14 +421,12 @@ body, html {
 .job .company-container {
     font-size: 25px;
     font-family: 'Catamaran';
-    /* text-decoration: underline 1px;
-    text-underline-offset: 2px; */
 
     padding-top: 2px;
     padding-bottom: 2px;
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
-    background: linear-gradient(to right, #14161C, #2E373D);
+    background: linear-gradient(to right, #14161C, #2e373d73);
 }
 
 .job .company {
@@ -437,11 +435,22 @@ body, html {
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
     background-color: #14161C;
+    /* background: linear-gradient(to right, #14161C, #111318); */
 }
 
 .job-row {
     display: flex;
     justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding-left: 1.5em;
+    text-align: justify;
+}
+
+ul > li {
+    margin: .25em 0;
 }
 
 .hz-dots {
