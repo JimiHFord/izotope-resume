@@ -407,11 +407,11 @@ body, html {
 }
 
 .job-separator {
-    border-right: 2px solid #2E373D
+    border-right: 2px solid #2E373D;
 }
 
 .job-col {
-    padding: .5rem;
+    padding: .5rem 1rem;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
@@ -428,6 +428,12 @@ body, html {
 .job-row {
     display: flex;
     justify-content: space-between;
+}
+
+.hz-dots {
+    flex: 1 1 auto;
+    border-bottom: 2px dotted #2E373D;
+    margin: 0 .5em;
 }
 
 .refresh-button-container {
