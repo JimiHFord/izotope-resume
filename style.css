@@ -111,14 +111,85 @@ body, html {
 
 .sidebar {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.sb-col-container {
+    display: flex;
     flex-direction: row;
     padding: 1rem;
-    width: 100%;
+    height: 100%;
     margin-top: 2px;
     color: #80888F;
-    /* height: 100%; */
     background-color: #313A43;
     justify-content: space-between;
+}
+
+.sb-links {
+    background-color: #313A43;
+    padding: 0 0 1rem 1rem;
+    font-size: 20px;
+    display: flex;
+}
+
+.sb-link {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #566069;
+
+}
+
+.sb-link img {
+    width: 1.5rem;
+}
+
+.sb-link a {
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    color: #DEDFE0;
+}
+
+.sb-link a:visited {
+    text-decoration: none;
+    color: #DEDFE0;
+}
+
+.sb-link-label {
+    display: flex;
+    align-items: center;
+    padding-left: .75rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    font-weight: 400;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+/* .no-piracy-container > .skull {
+    width: 1em;
+    margin-right: -1.75em;
+}
+
+.no-piracy-container > .ban {
+    width: 2em;
+    margin-bottom: -.4em;
+} */
+
+.no-piracy-container > .skull {
+    width: 1em;
+    margin-right: -1.75em;
+    margin-bottom: -2.5em;
+}
+
+.no-piracy-container > .ban {
+    width: 2em;
+    margin-bottom: -3em;
 }
 
 .sidebar-heading {
@@ -184,6 +255,9 @@ body, html {
 
 .college-skill-content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .college-skill-title {
@@ -203,6 +277,15 @@ body, html {
     justify-content: space-between;
 }
 
+.grip {
+    display: flex;
+    justify-content: center;
+}
+
+.grip > img {
+    width: 1em;
+}
+
 .add-college-skill {
     max-width: 19rem;
     min-width: 10rem;
@@ -216,6 +299,10 @@ body, html {
 .college-skill.active {
     border: solid #22AEDF 1px;
     color: #22AEDF;
+}
+
+.grey-text {
+    color: #80888F;
 }
 
 .college-skill-r-1 {
@@ -262,6 +349,10 @@ body, html {
 
 .mt-1 {
     margin-top: 1rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
 }
 
 .mt-p25 {
