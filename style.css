@@ -418,11 +418,25 @@ body, html {
     justify-content: space-between;
 }
 
-.job .company {
+.job .company-container {
     font-size: 25px;
     font-family: 'Catamaran';
-    text-decoration: underline 1px;
-    text-underline-offset: 2px;
+    /* text-decoration: underline 1px;
+    text-underline-offset: 2px; */
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background: linear-gradient(to right, #14161C, #2E373D);
+}
+
+.job .company {
+    padding-right: 1rem;
+    margin-right: 1px;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background-color: #14161C;
 }
 
 .job-row {
