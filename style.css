@@ -101,7 +101,7 @@ body, html {
     display: flex;
     flex-flow: column;
     height: 100%;
-    width: 99rem;
+    /* width: 99rem; */
 }
 
 .sidebar {
@@ -147,7 +147,7 @@ body, html {
 }
 
 .sb-links {
-    padding: 0 0 1rem 1rem;
+    /* padding: 0 0 1rem 1rem; */
     font-size: 20px;
     display: flex;
 }
@@ -156,7 +156,7 @@ body, html {
     display: flex;
     align-items: center;
     padding: 0.5rem;
-    background-color: #566069;
+    /* background-color: #566069; */
     color: #DEDFE0;
 
 }
@@ -286,7 +286,8 @@ body, html {
 }
 
 .add-college-skill {
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
+    width: 19rem;
     border-radius: 2px;
     border: dashed #566069 2px;
     display: flex;
